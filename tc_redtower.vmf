@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6618"
-	"mapversion" "1069"
+	"mapversion" "1070"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,13 +26,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1069"
+	"mapversion" "1070"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4882,6 +4882,83 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "44402"
+		side
+		{
+			"id" "3664"
+			"plane" "(-3584 512 528) (-3584 512 512) (-6912 512 512)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 108.31] 0.342105"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3663"
+			"plane" "(-6912 3584 528) (-6912 3584 512) (-3584 3584 512)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 108.31] 0.342105"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3662"
+			"plane" "(-6912 512 528) (-6912 512 512) (-6912 3584 512)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.666667"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3661"
+			"plane" "(-3584 3584 528) (-3584 3584 512) (-3584 512 512)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.666667"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3660"
+			"plane" "(-3584 512 528) (-6912 512 528) (-6912 3584 528)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 108.31] 0.342105"
+			"vaxis" "[0 -1 0 0] 0.666667"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3659"
+			"plane" "(-3584 3584 512) (-6912 3584 512) (-6912 512 512)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 108.31] 0.342105"
+			"vaxis" "[0 -1 0 0] 0.666667"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 138 147"
+			"visgroupid" "11"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -7694,7 +7771,7 @@ entity
 	"classname" "info_player_teamspawn"
 	"angles" "0 90 0"
 	"controlpoint" "cp_blubase"
-	"origin" "-2816 960 16"
+	"origin" "-6528 1344 16"
 	editor
 	{
 		"color" "220 30 220"
@@ -7910,8 +7987,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-4016.87 -519.271 1699.21]"
-		"look" "[-4051.36 -403.735 1621.5]"
+		"position" "[-6499.51 759.601 90.8012]"
+		"look" "[-6506.97 901 67.8689]"
 	}
 }
 cordon
